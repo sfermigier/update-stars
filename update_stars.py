@@ -24,7 +24,6 @@ def main():
     for line in open("README.md").readlines():
         line = line.rstrip()
         m = re.search(PAT, line)
-        print([line, m])
         if m:
             print(m.groups())
             org = m.group(1)
