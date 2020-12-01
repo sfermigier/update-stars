@@ -5,7 +5,7 @@ description = ""
 authors = ["Stefane Fermigier <sf@fermigier.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 PyGithub = "^1.54"
 python-dotenv = "^0.15.0"
 
