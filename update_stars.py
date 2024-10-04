@@ -37,7 +37,7 @@ def main2(path: Path):
 
         repo = g.get_repo(f"{org}/{repo_name}")
         stars = repo.stargazers_count
-        updated = f"- [{name} ★{stars}](https://github.com/{org}/{repo_name})"
+        updated = f"- [{name}](https://github.com/{org}/{repo_name}) ★{stars}"
 
         updated_line = line[0 : m.start()] + updated + line[m.end() :]
         if updated_line != line:
